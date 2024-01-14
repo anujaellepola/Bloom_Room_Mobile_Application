@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Register">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_green"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="The Bloom Room"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_green"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="35dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Register"/>
+
+    <EditText
+        android:id="@+id/TXT_name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/txt_green"
+        android:gravity="center"
+        android:hint="Please Enter Your Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/txt_green"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/TXT_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/txt_green"
+        android:gravity="center"
+        android:hint="Please Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/txt_green"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/TXT_password_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/txt_green"
+        android:gravity="center"
+        android:hint="Please Enter Your Password"
+        android:inputType="textPassword"
+        android:textColor="@color/txt_green"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BTN_register_id"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:text="REGISTER"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/txt_hint_button_color"
+        android:textColor="@color/txt_green"/>
+
+    <TextView
+        android:id="@+id/CLK_Login_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to Login"
+        android:textColor="@color/txt_green"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="35dp"
+        android:gravity="bottom"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
